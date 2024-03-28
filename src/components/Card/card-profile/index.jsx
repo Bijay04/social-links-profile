@@ -11,19 +11,19 @@ const ProfileCard = ({ UserImg, UserName, UserLocation, UserRole }) => {
           <p className="text-white my-3">{`"${UserRole}"`}</p>
         </div>
         <div className="card-profile__link text-white text-center ">
-          <p className="bg-slate-600 py-2 rounded-lg m-2 hover:bg-lime-300 hover:text-black hover:scale-105">
+          <p className="bg-slate-600 py-2 rounded-lg m-2 cursor-pointer hover:bg-lime-300 hover:text-black hover:scale-105">
             Github
           </p>{" "}
-          <p className="bg-slate-600 py-2 rounded-lg m-2 hover:bg-lime-300 hover:text-black hover:scale-105">
+          <p className="bg-slate-600 py-2 rounded-lg m-2 cursor-pointer hover:bg-lime-300 hover:text-black hover:scale-105">
             FrontendMentor
           </p>
-          <p className="bg-slate-600 py-2 rounded-lg m-2 hover:bg-lime-300 hover:text-black hover:scale-105">
+          <p className="bg-slate-600 py-2 rounded-lg m-2 cursor-pointer hover:bg-lime-300 hover:text-black hover:scale-105">
             LinkedIn
           </p>
-          <p className="bg-slate-600 py-2 rounded-lg m-2 hover:bg-lime-300 hover:text-black hover:scale-105">
+          <p className="bg-slate-600 py-2 rounded-lg m-2 cursor-pointer hover:bg-lime-300 hover:text-black hover:scale-105">
             Twitter
           </p>
-          <p className="bg-slate-600 py-2 rounded-lg m-2 hover:bg-lime-300 hover:text-black hover:scale-105">
+          <p className="bg-slate-600 py-2 rounded-lg m-2 cursor-pointer hover:bg-lime-300 hover:text-black hover:scale-105">
             Instagram
           </p>
         </div>
